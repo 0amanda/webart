@@ -46,8 +46,9 @@ body{
     padding: 2em;
     mix-blend-mode:luminosity;
     box-shadow: 10px 10px 10px red;
-    background-image: url(https://media0.giphy.com/media/lwI8aN3MFSOIBWAlNy/giphy.gif);
+    background-image: url(https://media0.giphy.com/media/h4TjBLJ8gR12SO0BdK/giphy.gif);
     background-size: contain;
+    
     
 }
 .welcome:hover{

@@ -39,7 +39,7 @@ body{
 
 .corner-message{
     position:absolute;
-    top: 0;
+    top: 5px;
     right:0;
     font-size: 2rem;
     background-color: blueviolet;
@@ -48,7 +48,8 @@ body{
     box-shadow: 10px 10px 10px red;
     background-image: url(https://media0.giphy.com/media/h4TjBLJ8gR12SO0BdK/giphy.gif);
     background-size: contain;
-    
+    background-repeat: no-repeat;
+
     
 }
 .welcome:hover{

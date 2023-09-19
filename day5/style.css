@@ -32,7 +32,7 @@ body{
 .mushroom{
     width: 400px;
     object-fit: contain;
-
+    mix-blend-mode: multiply;
 
 
 }

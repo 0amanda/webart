@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+.clouds{
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    /* vh= viewport height */
+    height: 100vh;
+    /*objectfit determines how a video or image will fit in the space it occupies*/
+    object-fit: cover;
+    object-position: top left;
+}
+
+.welcome{
+    /*position absolute, can move things anywhere on the page, now is floating*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10vw;
+    color: aqua;
+    mix-blend-mode:luminosity;
+    text-shadow: 2px 20px 10px red;
+    border: 20px solid;
+    
+
+}
+.mushroom{
+    width: 400px;
+    object-fit: contain;
+
+
+
+}
+
+.corner-message{
+    position:absolute;
+    top: 0;
+    right:0;
+    font-size: 2rem;
+    background-color: blueviolet;
+    padding: 2em;
+    mix-blend-mode:luminosity;
+    box-shadow: 10px 10px 10px red;
+    background-image: url(https://media0.giphy.com/media/lwI8aN3MFSOIBWAlNy/giphy.gif);
+    background-size: contain;
+    
+}
+.welcome:hover{
+    filter: blur(5px);
+    transition: all 0.3s ease;
+    
+}

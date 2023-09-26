@@ -68,3 +68,10 @@ html{
 .close-button:hover{
     cursor: pointer;
 }
+
+.sticky{
+    background-color: steelblue;
+    position: sticky;
+    top: 50px;
+
+}

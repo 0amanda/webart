@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.box{
+    background-color: violet;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    display: grid;
+    place-items: center;
+
+}
+
+.absolute{
+    background-color: aquamarine;
+    position: absolute;
+    right: 20px;
+    top: 400px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: orangered;
+    right: 0px;
+    bottom: 300px;
+}
+
+.relative{
+    background-color: olivedrab;
+    position: relative; /* element stays in document flow sorta, use on parent to control where child element goes*/
+    /*left: 100px;
+    top: 50px;*/
+    width: 10rem;
+    height: 10rem;
+    display: block; 
+}
+
+.child{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.dialog-box{
+    width: 200px;
+    height: 100px;
+    background-color:antiquewhite;
+    position: relative;
+}
+
+.close-button{
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    top: 5px;
+    right: 5px;
+    color: white;
+
+}
+
+.close-button:hover{
+    cursor: pointer;
+}
